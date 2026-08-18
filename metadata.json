@@ -1,0 +1,6 @@
+{
+  "name": "FOODWARS",
+  "description": "Interactive comfort food competition tournament where you become the judge to find your ultimate comfort food and food personality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

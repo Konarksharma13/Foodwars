@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FBFBF2;
+    color: #1A1A1A;
+  }
+  
+  .font-display {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .font-editorial {
+    font-family: 'Syne', sans-serif;
+  }
+  
+  .font-serif-italic {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-style: italic;
+  }
+}
+
+/* Editorial / Magazine paper and stamp patterns */
+.bg-newsprint {
+  background-color: #FBFBF2;
+  background-image: radial-gradient(#E8E8DC 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+.stamp-border {
+  border: 3px solid currentColor;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1.5px currentColor;
+}
+
+.editorial-shadow {
+  box-shadow: 6px 6px 0px 0px #1A1A1A;
+}
+
+.editorial-shadow-lg {
+  box-shadow: 8px 8px 0px 0px #1A1A1A;
+}
+
+.editorial-shadow-sm {
+  box-shadow: 4px 4px 0px 0px #1A1A1A;
+}
+
+.editorial-shadow-colored {
+  box-shadow: 6px 6px 0px 0px var(--shadow-color, #FF6321);
+}
+
+.editorial-shadow-yellow {
+  box-shadow: 6px 6px 0px 0px #FDE047;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F4EA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6321;
+}
+
