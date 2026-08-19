@@ -1468,7 +1468,7 @@ export const CATEGORIES_CONFIG: Record<ComfortCategory, {
     emoji: '🧀',
     title: 'CHEESY',
     tagline: 'Molten, stretchy, bubbling indulgence',
-    heroImage: '/src/assets/images/cheesy.jpg',
+    heroImage: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80',
     accentColor: '#E5A912',
     textColor: '#8A5B00',
     badgeBg: '#FEF3C7',
@@ -1479,7 +1479,7 @@ export const CATEGORIES_CONFIG: Record<ComfortCategory, {
     emoji: '🔥',
     title: 'SPICY',
     tagline: 'Fiery, aromatic, endorphin-inducing heat',
-    heroImage: '/src/assets/images/spicy.jpg',
+    heroImage: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80',
     accentColor: '#E84824',
     textColor: '#A22204',
     badgeBg: '#FEE2E2',
@@ -1519,3 +1519,4 @@ export const CATEGORIES_CONFIG: Record<ComfortCategory, {
     description: 'Double-fried buttermilk crusts, shattering potato tempura, and blistered lechon cracklings. Acoustic satisfaction in every bite.'
   }
 };
+
