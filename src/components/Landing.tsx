@@ -15,11 +15,6 @@ export const Landing: React.FC<LandingProps> = ({ onStart }) => {
   return (
     <div className="relative min-h-[calc(100vh-80px)] flex flex-col justify-between py-6 sm:py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
       
-      {/* Side margin watermark text in theme */}
-      <div className="hidden 2xl:block absolute top-[25%] left-[-4%] -rotate-90 text-[10px] font-black uppercase tracking-[0.5em] opacity-30 select-none pointer-events-none">
-        Verdict required • The Final nears • Choose your champion
-      </div>
-
       {/* Top Editorial Header Bar */}
       <div className="flex flex-wrap items-center justify-between border-b-2 border-[#1A1A1A] pb-3 mb-6 sm:mb-8 text-xs font-black tracking-widest uppercase text-[#1A1A1A]">
         <div className="flex items-center gap-2">
