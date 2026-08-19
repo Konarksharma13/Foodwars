@@ -71,7 +71,7 @@ const CONTENDER_OPTIONS: {
     badge: 'THE GAUNTLET',
     battles: '15 Epic Battles',
     timeEst: '~8 mins',
-    intensity: 'Supreme Championship',
+    intensity: 'Crown Clash',
     intensityScore: 4,
     description: 'The complete 16-contender gauntlet across four tournament stages. Only the true icon survives.',
     accentBg: '#FCE7F3',
