@@ -14,7 +14,12 @@ FOODWARS transforms those everyday debates into an interactive tournament where 
 
 More than just choosing what to eat, every decision shapes your unique **Food DNA**, revealing your taste personality, battle history, and ultimate comfort food champion.
 
-🔗 **Live Demo:** https://your-demo-link.com
+🔗 **Live Demo:** https://comfort-foodwars.vercel.app/
+
+
+https://github.com/user-attachments/assets/5a14ad2e-2f5b-4ede-bf39-d956fbb68d01
+
+
 
 <!-- Add demo GIF here -->
 
@@ -122,7 +127,7 @@ FOODWARS combines game mechanics, storytelling, and modern frontend design to tr
 
 <p align="center">
 
-<!-- Add screenshots or GIF here -->
+<img width="1702" height="911" alt="foodwars" src="https://github.com/user-attachments/assets/2cc37cc3-6f50-4440-ba78-2e50c8cd8b8b" />
 
 </p>
 
