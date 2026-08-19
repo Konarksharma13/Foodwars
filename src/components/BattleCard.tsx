@@ -78,7 +78,7 @@ export const BattleCard: React.FC<BattleCardProps> = ({
             animate={{ scale: 1, y: 0, opacity: 1 }}
             exit={{ scale: 0.8, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 450, damping: 20 }}
-            className="absolute top-4 left-1/2 -translate-x-1/2 z-40 bg-[#1A1A1A] text-white px-6 py-2.5 border-3 border-white text-lg font-black tracking-widest uppercase flex items-center gap-2 shadow-2xl"
+            className="absolute top-4 left-1/2 -translate-x-1/2 z-40 bg-[#1A1A1A] text-white px-6 py-2.5 border-3 border-white text-sm font-black tracking-widest uppercase flex items-center gap-2 shadow-2xl"
           >
             <Trophy className="w-5 h-5 text-[#FDE047] animate-spin" style={{ animationDuration: '3s' }} />
             <span>{food.name} ADVANCES →</span>
